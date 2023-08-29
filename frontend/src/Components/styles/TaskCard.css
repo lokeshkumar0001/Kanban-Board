@@ -1,0 +1,47 @@
+/* TaskCard.css */
+.task-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.task-card h3,
+.task-card p {
+  margin: 0;
+  padding: 8px 0;
+  font-size: 18px;
+
+}
+
+.editing {
+  border: 2px solid #007bff;
+  background-color: #f7faff;
+}
+
+.task-card p {
+  color: #555;
+}
+
+.edit-buttons {
+  margin-top: 8px 2px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.edit-buttons button {
+  margin-left: 8px;
+}
+
+.button-icons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.button-icons svg {
+  font-size: 18px;
+}

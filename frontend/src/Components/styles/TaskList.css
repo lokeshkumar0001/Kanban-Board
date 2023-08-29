@@ -1,0 +1,52 @@
+.task-list {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px;
+  min-width: 300px;
+  width: 30%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.task-list h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.task-list .task-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 8px;
+  cursor: grab;
+}
+
+.task-list .task-card.editing {
+  border: 2px solid #007bff;
+  padding: 7px;
+}
+
+.task-list .task-card h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.task-list .task-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.task-list .task-card button {
+  margin-top: 4px;
+}
+
+.task-list .edit-buttons {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
